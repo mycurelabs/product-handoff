@@ -1,0 +1,628 @@
+<mxfile>
+  <diagram name="Default" id="pl-default">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background (warm cream) -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: CLINICAL -->
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: OPERATIONS -->
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: ADMIN -->
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar User Footer -->
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Header 64px -->
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Clinical / Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE START - x=240 y=64 w=1200 h=836 -->
+
+        <!-- Page Header Row -->
+        <mxCell id="pl-page-heading" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=22;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="264" y="84" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-badge-count" value="127 patients" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#F5F5F5;strokeColor=none;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="432" y="89" width="90" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-btn-default-new" value="+ New Patient" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="84" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Search & Filters Row -->
+        <mxCell id="pl-input-search" value="  Search patients..." style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=middle;spacingLeft=32;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM3MTcxN0EiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iMTEiIGN5PSIxMSIgcj0iOCIvPjxwYXRoIGQ9Im0yMSAyMS00LjM1LTQuMzUiLz48L3N2Zz4=;imageAlign=left;imageWidth=16;imageHeight=16;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="264" y="136" width="660" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-select-sort" value="Sort by: Last Visit          ▾" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="940" y="136" width="200" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Status Filter Pills -->
+        <mxCell id="pl-filter-all" value="All" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#1E3A5F;strokeColor=#1E3A5F;fontFamily=Inter;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="139" width="48" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-filter-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="139" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-filter-pending" value="Pending" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="139" width="66" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-filter-archived" value="Archived" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="139" width="68" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ========== CARD GRID (3 cols × 2 rows) ========== -->
+        <!-- Card dimensions: w=389, h=180, gap=16 -->
+        <!-- Row 1: y=192 -->
+
+        <!-- Card 1: DELA CRUZ, Juan M. -->
+        <mxCell id="pl-card1" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="192" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card1">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <!-- Folder tab -->
+        <mxCell id="pl-card1-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card1">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-avatar" value="JD" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card1">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <!-- Decorative lines in tab -->
+        <mxCell id="pl-card1-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card1">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card1">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <!-- Overflow -->
+        <mxCell id="pl-card1-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card1">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <!-- Card body -->
+        <mxCell id="pl-card1-lastname" value="DELA CRUZ" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-firstname" value="Juan M." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-gender-age" value="♂ 34" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-dob" value="Born: Jan 15, 1992" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-contact" value="09XX...1234" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <!-- Status + In Session badge -->
+        <mxCell id="pl-card1-badge-outline-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#22C55E;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#22C55E;align=center;verticalAlign=middle;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="126" width="56" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-badge-default-session" value="In Session" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#2563EB;strokeColor=none;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="pl-card1">
+          <mxGeometry x="82" y="126" width="76" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card1-date" value="Last visit: Mar 20, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card1">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 2: SANTOS, Maria L. -->
+        <mxCell id="pl-card2" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="669" y="192" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card2">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card2">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-avatar" value="MS" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card2">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card2">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card2">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card2">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-lastname" value="SANTOS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-firstname" value="Maria L." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-gender-age" value="♀ 28" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-dob" value="Born: Aug 5, 1998" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-contact" value="09XX...5678" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-badge-outline-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#22C55E;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#22C55E;align=center;verticalAlign=middle;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="126" width="56" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card2-date" value="Last visit: Mar 18, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card2">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 3: REYES, Carlos P. -->
+        <mxCell id="pl-card3" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1074" y="192" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card3">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card3">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-avatar" value="CR" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card3">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card3">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card3">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card3">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-lastname" value="REYES" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-firstname" value="Carlos P." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-gender-age" value="♂ 45" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-dob" value="Born: Nov 22, 1981" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-contact" value="09XX...9012" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-badge-outline-pending" value="Pending" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#F59E0B;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#F59E0B;align=center;verticalAlign=middle;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="126" width="60" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card3-date" value="Last visit: Mar 10, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card3">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 2: y=388 -->
+        <!-- Card 4: GARCIA, Ana B. -->
+        <mxCell id="pl-card4" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="388" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card4">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card4">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-avatar" value="AG" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card4">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card4">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card4">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card4">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-lastname" value="GARCIA" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-firstname" value="Ana B." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-gender-age" value="♀ 52" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-dob" value="Born: Jun 3, 1974" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-contact" value="09XX...3456" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-badge-outline-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#22C55E;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#22C55E;align=center;verticalAlign=middle;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="126" width="56" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card4-date" value="Last visit: Mar 15, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card4">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 5: VILLANUEVA, Rico T. -->
+        <mxCell id="pl-card5" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="669" y="388" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card5">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card5">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-avatar" value="RV" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card5">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card5">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card5">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card5">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-lastname" value="VILLANUEVA" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-firstname" value="Rico T." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-gender-age" value="♂ 61" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-dob" value="Born: Feb 14, 1965" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-contact" value="09XX...7890" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-badge-outline-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#22C55E;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#22C55E;align=center;verticalAlign=middle;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="126" width="56" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card5-date" value="Last visit: Feb 28, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card5">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 6: LIM, Sofia R. -->
+        <mxCell id="pl-card6" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1074" y="388" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-card6">
+          <mxGeometry x="0" y="0" width="389" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-tab" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-card6">
+          <mxGeometry x="0" y="-12" width="120" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-avatar" value="SL" style="ellipse;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;aspect=fixed;" vertex="1" parent="pl-card6">
+          <mxGeometry x="8" y="-8" width="16" height="16" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-tabline1" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card6">
+          <mxGeometry x="32" y="-4" width="80" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-tabline2" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="pl-card6">
+          <mxGeometry x="32" y="4" width="60" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-overflow" value="⋮" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontColor=#4A6B7A;" vertex="1" parent="pl-card6">
+          <mxGeometry x="353" y="8" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-lastname" value="LIM" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="24" width="300" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-firstname" value="Sofia R." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="52" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-gender-age" value="♀ 38" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="76" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-dob" value="Born: Dec 1, 1988" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="96" width="160" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-contact" value="09XX...2345" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="180" y="96" width="100" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-badge-outline-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#22C55E;strokeWidth=1;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#22C55E;align=center;verticalAlign=middle;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="126" width="56" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-card6-date" value="Last visit: Mar 5, 2026" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="pl-card6">
+          <mxGeometry x="20" y="152" width="200" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Empty" id="pl-empty">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background (warm cream) -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Clinical / Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE START -->
+
+        <!-- Page Header (no count badge) -->
+        <mxCell id="pl-empty-page-heading" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=22;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="264" y="84" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-btn-default-new" value="+ New Patient" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="84" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Empty State Card (centered) -->
+        <mxCell id="pl-empty-card" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="320" width="360" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-empty-card-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="pl-empty-card">
+          <mxGeometry x="0" y="0" width="360" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-empty-illustration" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="pl-empty-card">
+          <mxGeometry x="130" y="24" width="100" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-empty-heading" value="No patients yet" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="pl-empty-card">
+          <mxGeometry x="40" y="120" width="280" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-empty-desc" value="Add your first patient to get started." style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;" vertex="1" parent="pl-empty-card">
+          <mxGeometry x="40" y="152" width="280" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-empty-btn-default-new" value="+ New Patient" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="pl-empty-card">
+          <mxGeometry x="120" y="200" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Search No Results" id="pl-search-noresults">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background (warm cream) -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Clinical / Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE START -->
+
+        <!-- Page Header -->
+        <mxCell id="pl-noresults-heading" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=22;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="264" y="84" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-badge-secondary" value="127 patients" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#F5F5F5;strokeColor=none;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="432" y="89" width="90" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-btn-default-new" value="+ New Patient" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1296" y="84" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Search bar with "Jose" typed -->
+        <mxCell id="pl-noresults-input-search" value="  Jose" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=32;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM3MTcxN0EiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iMTEiIGN5PSIxMSIgcj0iOCIvPjxwYXRoIGQ9Im0yMSAyMS00LjM1LTQuMzUiLz48L3N2Zz4=;imageAlign=left;imageWidth=16;imageHeight=16;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="264" y="136" width="660" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-select-sort" value="Sort by: Last Visit          ▾" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="940" y="136" width="200" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-filter-all" value="All" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#1E3A5F;strokeColor=#1E3A5F;fontFamily=Inter;fontSize=12;fontStyle=1;fontColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1156" y="139" width="48" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-filter-active" value="Active" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="139" width="60" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-filter-pending" value="Pending" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1276" y="139" width="66" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-filter-archived" value="Archived" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1348" y="139" width="68" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- No results message -->
+        <mxCell id="pl-noresults-msg" value="No patients match 'Jose'" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="360" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="pl-noresults-btn-link-clear" value="Clear search" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#2563EB;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="760" y="416" width="160" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

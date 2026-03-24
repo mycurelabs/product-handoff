@@ -1,0 +1,488 @@
+<mxfile>
+  <diagram name="Default" id="default">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ==================== SHELL: Dentalemon Navigation Shell ==================== -->
+        <!-- Background (warm cream) -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: CLINICAL -->
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: OPERATIONS -->
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: ADMIN -->
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar User Footer -->
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Header 64px -->
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Operations / Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== CONTENT ZONE START - x=240 y=64 w=1200 h=836 ==================== -->
+
+        <!-- View Detailed Report link (right side of header area) -->
+        <mxCell id="ad-btn-detail-report" value="View Detailed Report ->" style="text;html=1;align=right;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="16" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Period Toggle (y=80) - tabs stamp, 3-tab variant -->
+        <mxCell id="ad-tabs-period" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="80" width="360" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="0" y="0" width="360" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="0" y="35" width="360" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-weekly" value="Weekly" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="0" y="0" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-monthly" value="Monthly" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="120" y="0" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-quarterly" value="Quarterly" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="240" y="0" width="120" height="34" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-tabs-period-accent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E3A5F;strokeColor=none;" vertex="1" parent="ad-tabs-period">
+          <mxGeometry x="120" y="34" width="120" height="2" as="geometry"/>
+        </mxCell>
+
+        <!-- Summary Cards Row (y=132, 4-col, card_w=276, gap=16) -->
+        <!-- Card 1: Revenue (trend-up) -->
+        <mxCell id="ad-kpi-revenue" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="132" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-label" value="Revenue" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-value" value="P45,200" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-trend" value="+12% vs last month" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#22C55E;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="16" y="72" width="244" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 2: Patients (trend-up) -->
+        <mxCell id="ad-kpi-patients" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="556" y="132" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-label" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-value" value="15" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-trend" value="+8% vs last month" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#22C55E;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="16" y="72" width="244" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 3: Treatments (trend-down) -->
+        <mxCell id="ad-kpi-treatments" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="848" y="132" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-label" value="Treatments" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-value" value="28" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-trend" value="-3% vs last month" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#EF4444;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="16" y="72" width="244" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 4: Outstanding (trend-down = bad, red) -->
+        <mxCell id="ad-kpi-outstanding" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1140" y="132" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-label" value="Outstanding" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-value" value="P8,500" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#EF4444;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-trend" value="+15% vs last month" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#EF4444;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="16" y="72" width="244" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== Charts Row (y=248, 2-col, gap=16) ==================== -->
+        <!-- chart container width: (1152 - 16) / 2 = 568 -->
+        <!-- Left: Revenue Trend -->
+        <mxCell id="ad-card-chart1" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="248" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart1-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-card-chart1">
+          <mxGeometry x="0" y="0" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart1-title" value="Revenue Trend" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-card-chart1">
+          <mxGeometry x="24" y="16" width="520" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart1-placeholder" value="Chart: Line - Collections vs Outstanding" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=13;fontColor=#71717A;align=center;verticalAlign=middle;" vertex="1" parent="ad-card-chart1">
+          <mxGeometry x="24" y="52" width="520" height="212" as="geometry"/>
+        </mxCell>
+
+        <!-- Right: Top Treatments -->
+        <mxCell id="ad-card-chart2" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="848" y="248" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart2-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-card-chart2">
+          <mxGeometry x="0" y="0" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart2-title" value="Top Treatments" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-card-chart2">
+          <mxGeometry x="24" y="16" width="520" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart2-placeholder" value="Chart: Horizontal Bar - Top 10 by Revenue" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=13;fontColor=#71717A;align=center;verticalAlign=middle;" vertex="1" parent="ad-card-chart2">
+          <mxGeometry x="24" y="52" width="520" height="212" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== Bottom Row (y=544, 2-col) ==================== -->
+        <!-- Left: Payment Methods -->
+        <mxCell id="ad-card-chart3" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="544" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart3-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-card-chart3">
+          <mxGeometry x="0" y="0" width="568" height="280" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart3-title" value="Payment Methods" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-card-chart3">
+          <mxGeometry x="24" y="16" width="520" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-card-chart3-placeholder" value="Chart: Pie - Revenue by Method" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=13;fontColor=#71717A;align=center;verticalAlign=middle;" vertex="1" parent="ad-card-chart3">
+          <mxGeometry x="24" y="52" width="520" height="212" as="geometry"/>
+        </mxCell>
+
+        <!-- Right: Reserved placeholder -->
+        <mxCell id="ad-reserved" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E5E5;strokeWidth=1;strokeDasharray=4 4;" vertex="1" parent="1">
+          <mxGeometry x="848" y="544" width="568" height="280" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Empty" id="empty">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ==================== SHELL: Dentalemon Navigation Shell ==================== -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Operations / Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== EMPTY STATE CONTENT ==================== -->
+        <mxCell id="ad-empty-card" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="300" width="400" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-empty-illust" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="324" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-empty-heading" value="No data yet" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="300" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-empty-desc" value="Start seeing patients to track your practice performance." style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="720" y="448" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-btn-add-patient" value="Add First Patient" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="798" y="500" width="144" height="36" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Solo Tier" id="solo-tier">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ==================== SHELL: Dentalemon Navigation Shell ==================== -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Operations / Dashboard" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== SOLO TIER CONTENT ==================== -->
+        <!-- Summary Cards (visible, no trend badges) - kpi-default variant -->
+        <!-- Card 1: Revenue -->
+        <mxCell id="ad-kpi-revenue" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="80" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-label" value="Revenue" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-revenue-value" value="P45,200" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-revenue">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 2: Patients -->
+        <mxCell id="ad-kpi-patients" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="556" y="80" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-label" value="Patients" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-patients-value" value="15" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-patients">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 3: Treatments -->
+        <mxCell id="ad-kpi-treatments" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="848" y="80" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-label" value="Treatments" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-treatments-value" value="28" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-treatments">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Card 4: Outstanding -->
+        <mxCell id="ad-kpi-outstanding" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1140" y="80" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-bg" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="0" y="0" width="276" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-label" value="Outstanding" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#71717A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="16" y="12" width="244" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-kpi-outstanding-value" value="P8,500" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=24;fontStyle=1;fontColor=#EF4444;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-kpi-outstanding">
+          <mxGeometry x="16" y="36" width="244" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Upgrade Alert Banner -->
+        <mxCell id="ad-alert-upgrade" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="264" y="196" width="1152" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-alert-upgrade-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#F59E0B;strokeWidth=1;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="0" y="0" width="1152" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-alert-upgrade-accent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F59E0B;strokeColor=none;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="0" y="0" width="4" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-alert-upgrade-icon" value="!" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#F59E0B;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="16" y="20" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-alert-upgrade-title" value="Analytics Dashboard is available on the Practice tier." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="48" y="20" width="800" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-alert-upgrade-desc" value="Upgrade to Practice tier to unlock revenue trends, treatment analytics, and payment method breakdowns." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;whiteSpace=wrap;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="48" y="44" width="800" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-btn-learn-more" value="Learn More" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=13;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="48" y="96" width="100" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad-btn-maybe-later" value="Maybe Later" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="ad-alert-upgrade">
+          <mxGeometry x="160" y="96" width="100" height="32" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

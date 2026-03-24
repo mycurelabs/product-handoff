@@ -1,0 +1,283 @@
+<mxfile>
+  <diagram name="Welcome" id="ob-welcome">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Canvas BG (#FAFAF8 warm cream - no shell, auth-screen recipe) -->
+        <mxCell id="ob-canvas" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Centered Card (x=420, y=180, w=600, h=476 per auth-screen recipe) -->
+        <mxCell id="ob-card" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="180" width="600" height="476" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-card-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="ob-card">
+          <mxGeometry x="0" y="0" width="600" height="476" as="geometry"/>
+        </mxCell>
+
+        <!-- Dr. Lemon Mascot Placeholder -->
+        <mxCell id="ob-mascot" value="*" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=36;align=center;verticalAlign=middle;" vertex="1" parent="ob-card">
+          <mxGeometry x="260" y="40" width="80" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Welcome Heading (fontFamily=Inter per shell doc - draw.io can't load Plus Jakarta Sans) -->
+        <mxCell id="ob-heading" value="Welcome to Dentalemon" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=28;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-card">
+          <mxGeometry x="50" y="140" width="500" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Tagline -->
+        <mxCell id="ob-tagline" value="Because you do it all." style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-card">
+          <mxGeometry x="50" y="184" width="500" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- Starting Fresh Button (amber primary, h=44 per button-default-lg stamp) -->
+        <mxCell id="ob-btn-fresh" value="Starting Fresh" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="ob-card">
+          <mxGeometry x="60" y="272" width="480" height="44" as="geometry"/>
+        </mxCell>
+
+        <!-- Migrating Button (outline variant, h=44, fontColor=#1E3A5F per brand primary text) -->
+        <mxCell id="ob-btn-migrate" value="Migrating from another system" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="ob-card">
+          <mxGeometry x="60" y="332" width="480" height="44" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Step 1 - Clinic Setup" id="ob-step1">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Canvas BG -->
+        <mxCell id="ob-s1-canvas" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Centered Card (auth-screen adapted for wizard: w=600) -->
+        <mxCell id="ob-s1-card" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="120" width="600" height="660" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-card-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="0" y="0" width="600" height="660" as="geometry"/>
+        </mxCell>
+
+        <!-- Progress Bar (25% - stamp: progress-default, fill=#FFCC5E brand override) -->
+        <mxCell id="ob-s1-progress-track" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="24" width="480" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-progress-fill" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#FFCC5E;strokeColor=none;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="24" width="120" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-progress-label" value="Step 1 of 4" style="text;html=1;align=right;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="36" width="480" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- Step Title (fontFamily=Inter per shell doc) -->
+        <mxCell id="ob-s1-step-label" value="Clinic Setup" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=20;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="64" width="480" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Field: Clinic Name (input with-label stamp, w=480 h=60) -->
+        <mxCell id="ob-s1-input-name-label" value="Clinic Name" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="120" width="480" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-input-name" value="e.g. Smile Dental Clinic" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="144" width="480" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Field: Clinic Address (textarea stamp, w=480 h=96) -->
+        <mxCell id="ob-s1-input-addr-label" value="Clinic Address" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="196" width="480" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-input-addr" value="Enter full address..." style="rounded=1;arcSize=6;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="220" width="480" height="96" as="geometry"/>
+        </mxCell>
+
+        <!-- Field: Clinic Contact (input with-label stamp, w=480 h=60) -->
+        <mxCell id="ob-s1-input-contact-label" value="Clinic Contact Number" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="332" width="480" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-input-contact" value="e.g. +63 917 123 4567" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="60" y="356" width="480" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer: Back (ghost) + Continue (primary amber) - button stamp h=36 -->
+        <mxCell id="ob-s1-btn-back" value="Back" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="300" y="600" width="120" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s1-btn-continue" value="Continue" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="ob-s1-card">
+          <mxGeometry x="420" y="600" width="120" height="36" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Step 3 - Fee Schedule" id="ob-step3">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Canvas BG -->
+        <mxCell id="ob-s3-canvas" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Centered Card -->
+        <mxCell id="ob-s3-card" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="60" width="600" height="780" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-card-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="0" y="0" width="600" height="780" as="geometry"/>
+        </mxCell>
+
+        <!-- Progress Bar (75% - fill=#FFCC5E brand override) -->
+        <mxCell id="ob-s3-progress-track" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="24" width="480" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-progress-fill" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#FFCC5E;strokeColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="24" width="360" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-progress-label" value="Step 3 of 4" style="text;html=1;align=right;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="36" width="480" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- Step Title -->
+        <mxCell id="ob-s3-step-label" value="Treatment Fees" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=20;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="64" width="480" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Table Header (table stamp - h=40, 2 cols: 280+200=480) -->
+        <mxCell id="ob-s3-table-header" style="group;" vertex="1" connectable="0" parent="ob-s3-card">
+          <mxGeometry x="60" y="120" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" vertex="1" parent="ob-s3-table-header">
+          <mxGeometry x="0" y="0" width="480" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-header-col1" value="Treatment" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-table-header">
+          <mxGeometry x="0" y="0" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-header-col2" value="Default Price" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-table-header">
+          <mxGeometry x="280" y="0" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-header-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-table-header">
+          <mxGeometry x="0" y="39" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 1: Cleaning (table data-row pattern, h=40) -->
+        <mxCell id="ob-s3-table-r1-name" value="Cleaning" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="160" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r1-price" value="P1,000" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="352" y="162" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r1-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="199" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 2: Filling -->
+        <mxCell id="ob-s3-table-r2-name" value="Filling" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="200" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r2-price" value="P2,500" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="352" y="202" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r2-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="239" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 3: Extraction -->
+        <mxCell id="ob-s3-table-r3-name" value="Extraction" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="240" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r3-price" value="P1,200" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="352" y="242" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r3-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="279" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 4: Root Canal -->
+        <mxCell id="ob-s3-table-r4-name" value="Root Canal" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="280" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r4-price" value="P3,500" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="352" y="282" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r4-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="319" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 5: Crown -->
+        <mxCell id="ob-s3-table-r5-name" value="Crown" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="320" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r5-price" value="P6,000" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="352" y="322" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-table-r5-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="359" width="480" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Note -->
+        <mxCell id="ob-s3-note" value="These are default prices. You can change them anytime in Settings." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=wrap;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="60" y="380" width="480" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Footer: Back (ghost) + Continue (primary amber) - button stamp h=36 -->
+        <mxCell id="ob-s3-btn-back" value="Back" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="300" y="720" width="120" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-s3-btn-continue" value="Continue" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="ob-s3-card">
+          <mxGeometry x="420" y="720" width="120" height="36" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Completion" id="ob-complete">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Canvas BG -->
+        <mxCell id="ob-c-canvas" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Centered Card -->
+        <mxCell id="ob-c-card" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="420" y="200" width="600" height="440" as="geometry"/>
+        </mxCell>
+        <mxCell id="ob-c-card-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;" vertex="1" parent="ob-c-card">
+          <mxGeometry x="0" y="0" width="600" height="440" as="geometry"/>
+        </mxCell>
+
+        <!-- Celebration Mascot -->
+        <mxCell id="ob-c-mascot" value="* ✓" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=36;align=center;verticalAlign=middle;" vertex="1" parent="ob-c-card">
+          <mxGeometry x="260" y="40" width="80" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Heading (fontFamily=Inter per shell doc) -->
+        <mxCell id="ob-c-heading" value="You're all set!" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=28;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-c-card">
+          <mxGeometry x="50" y="148" width="500" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Subtitle -->
+        <mxCell id="ob-c-subtitle" value="Your clinic is ready. Start seeing patients." style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="ob-c-card">
+          <mxGeometry x="50" y="196" width="500" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- Complete Setup Button (amber primary, h=44 per button-default-lg stamp) -->
+        <mxCell id="ob-c-btn-complete" value="Complete Setup" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="ob-c-card">
+          <mxGeometry x="60" y="288" width="480" height="44" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

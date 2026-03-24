@@ -1,0 +1,72 @@
+<mxfile>
+  <diagram name="Default" id="cf-default">
+    <mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Dimmed backdrop -->
+        <mxCell id="cf-backdrop" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=none;opacity=40;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+        <!-- Modal panel -->
+        <mxCell id="cf-modal" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;shadow=1;arcSize=4;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="560" height="580" as="geometry"/>
+        </mxCell>
+        <!-- Header -->
+        <mxCell id="cf-header-title" value="Consent Form" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="472" y="176" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-header-close" value="✕" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="956" y="176" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-header-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="212" width="560" height="1" as="geometry"/>
+        </mxCell>
+        <!-- Form Type Select -->
+        <mxCell id="cf-type-label" value="Form Type" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#18181B;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="464" y="224" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-type-select" value="Treatment Consent                              ▾" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#18181B;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="464" y="248" width="512" height="36" as="geometry"/>
+        </mxCell>
+        <!-- Consent text placeholder -->
+        <mxCell id="cf-content-area" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="296" width="512" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-content-text" value="Consent form content loads here" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#71717A;fontStyle=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="464" y="340" width="512" height="24" as="geometry"/>
+        </mxCell>
+        <!-- Patient Signature -->
+        <mxCell id="cf-patient-sig-label" value="Patient Signature" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#18181B;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="464" y="428" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-patient-sig-pad" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;dashed=1;dashPattern=5 3;" vertex="1" parent="1">
+          <mxGeometry x="464" y="452" width="512" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-patient-sig-hint" value="Tap to sign" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#A1A1AA;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="464" y="476" width="512" height="24" as="geometry"/>
+        </mxCell>
+        <!-- Doctor Signature -->
+        <mxCell id="cf-doctor-sig-label" value="Doctor Signature" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#18181B;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="464" y="544" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-doctor-sig-pad" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;dashed=1;dashPattern=5 3;" vertex="1" parent="1">
+          <mxGeometry x="464" y="568" width="512" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-doctor-sig-hint" value="Auto-filled from profile" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#A1A1AA;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="464" y="592" width="512" height="24" as="geometry"/>
+        </mxCell>
+        <!-- Footer buttons -->
+        <mxCell id="cf-cancel-btn" value="Cancel" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=14;fontColor=#18181B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="664" width="80" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-clear-btn" value="Clear" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#18181B;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="748" y="664" width="80" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="cf-save-btn" value="Save" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="836" y="664" width="140" height="36" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

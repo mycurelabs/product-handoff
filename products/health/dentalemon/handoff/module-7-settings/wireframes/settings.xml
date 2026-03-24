@@ -1,0 +1,530 @@
+<mxfile>
+  <diagram name="Default (Fees Tab)" id="set-default">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background (warm cream) -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px (exact Navigation Shell from desktop-shell-dentalemon.md) -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: CLINICAL -->
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: OPERATIONS -->
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Nav Group: ADMIN -->
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <!-- ACTIVE: Settings - highlighted with #FFF9EB + bold navy -->
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar User Footer -->
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Header 64px -->
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Admin / Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <!-- Export button in header (outline variant, h=36) -->
+        <mxCell id="set-header-export" value="Export All Data" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="14" width="140" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE START - x=240 y=64 w=1200 h=836 -->
+
+        <!-- Content BG -->
+        <mxCell id="set-content-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="64" width="1200" height="836" as="geometry"/>
+        </mxCell>
+
+        <!-- 5-Tab bar (per shell Tab Bar pattern + brand colors) -->
+        <!-- Tab bar background: x=240 y=64 w=1200 h=40 -->
+        <mxCell id="set-tabs-bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="64" width="1200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-tabs-tab1" value="Clinic" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="260" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-tabs-tab2" value="Profile" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="380" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <!-- Active: Fees tab - fontStyle=1 + fontColor=#1E3A5F + accent line -->
+        <mxCell id="set-tabs-tab3" value="Fees" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="500" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-tabs-tab3-accent" value="" style="line;strokeColor=#1E3A5F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="102" width="120" height="2" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-tabs-tab4" value="Backup" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="620" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-tabs-tab5" value="Notifications" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="740" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+
+        <!-- Fees Tab Content (settings-screen recipe: content zone w=600, starts y=0 relative to content) -->
+        <!-- Content zone actual: x=240 y=104 (after tab bar). Using recipe y-positions offset by 104+32=136 for padding -->
+
+        <!-- Page title (recipe: y=0 → canvas y=120) -->
+        <mxCell id="set-fees-title" value="Treatment Fee Schedule" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <!-- Page description (recipe: y=32 → canvas y=152) -->
+        <mxCell id="set-fees-desc" value="Price changes apply to future treatments only." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="152" width="400" height="20" as="geometry"/>
+        </mxCell>
+        <!-- Divider (recipe: y=64 → canvas y=184) -->
+        <mxCell id="set-fees-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="184" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Table Header (recipe: section heading y=80 → canvas y=200, rows start y=138 → canvas y=258) -->
+        <mxCell id="set-table-header" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="200" width="800" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" vertex="1" parent="set-table-header">
+          <mxGeometry x="0" y="0" width="800" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-col1" value="Treatment" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="set-table-header">
+          <mxGeometry x="0" y="0" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-col2" value="Specialty" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="set-table-header">
+          <mxGeometry x="300" y="0" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-col3" value="Price (P)" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="set-table-header">
+          <mxGeometry x="460" y="0" width="200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-col4" value="" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="set-table-header">
+          <mxGeometry x="660" y="0" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-header-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="set-table-header">
+          <mxGeometry x="0" y="39" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 1: Cleaning / GENERAL / 1000 (data-row h=40, row gap=8px → next at +48) -->
+        <mxCell id="set-table-r1-name" value="Cleaning" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r1-spec" value="GENERAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="240" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r1-price" value="P1,000" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="242" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r1-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="279" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 2: Composite Filling / GENERAL / 2500 -->
+        <mxCell id="set-table-r2-name" value="Composite Filling" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r2-spec" value="GENERAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r2-price" value="P2,500" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="282" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r2-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="319" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 3: Extraction / ORAL / 1200 -->
+        <mxCell id="set-table-r3-name" value="Extraction" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r3-spec" value="ORAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r3-price" value="P1,200" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="322" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r3-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="359" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 4: Root Canal / ENDO / 3500 -->
+        <mxCell id="set-table-r4-name" value="Root Canal" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="360" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r4-spec" value="ENDO" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r4-price" value="P3,500" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="362" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r4-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="399" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 5: Crown / PROSTHO / 6000 -->
+        <mxCell id="set-table-r5-name" value="Crown" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r5-spec" value="PROSTHO" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="400" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r5-price" value="P6,000" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="402" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r5-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="439" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 6: Scaling / PERIO / 800 + trash icon (custom treatment) -->
+        <mxCell id="set-table-r6-name" value="Scaling" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r6-spec" value="PERIO" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="740" y="440" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r6-price" value="P800" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=left;verticalAlign=middle;spacingLeft=12;" vertex="1" parent="1">
+          <mxGeometry x="912" y="442" width="176" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r6-delete" value="✕" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontColor=#EF4444;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="440" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-table-r6-border" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="479" width="800" height="1" as="geometry"/>
+        </mxCell>
+
+        <!-- + Add Treatment button (outline, h=36) -->
+        <mxCell id="set-btn-add" value="+ Add Treatment" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="496" width="160" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Save button (primary amber, right-aligned, h=36) -->
+        <mxCell id="set-btn-save" value="Save" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFCC5E;strokeColor=#FFCC5E;fontFamily=Inter;fontSize=14;fontColor=#461402;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="552" width="120" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Staff Role (Access Denied)" id="set-access-denied">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px (exact Navigation Shell) -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Header 64px -->
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Admin / Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT: Access Denied (centered in content zone) -->
+        <mxCell id="set-ad-content-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="64" width="1200" height="836" as="geometry"/>
+        </mxCell>
+
+        <!-- Lock Icon -->
+        <mxCell id="set-ad-lock" value="*" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=40;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="800" y="340" width="80" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Heading -->
+        <mxCell id="set-ad-heading" value="Access restricted to Dentist-Owner." style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=20;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="500" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Go Back Button (ghost, h=36) -->
+        <mxCell id="set-ad-btn-back" value="Go Back" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="780" y="492" width="120" height="36" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="Storage Full (Backup Tab)" id="set-storage-full">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Background -->
+        <mxCell id="shell-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="900" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar 240px (exact Navigation Shell) -->
+        <mxCell id="shell-sidebar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="240" height="900" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-logo" value="* Dentalemon" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=16;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="20" y="14" width="200" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="56" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-clinical" value="CLINICAL" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-patients" value="Patients" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="94" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-calendar" value="Calendar" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="130" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-operations" value="OPERATIONS" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="184" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-dashboard" value="Dashboard" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="208" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-reports" value="Reports" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="244" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-group-admin" value="ADMIN" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#71717A;letterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="298" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-staff" value="Staff" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="322" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-settings" value="Settings" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#FFF9EB;strokeColor=none;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="358" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-nav-help" value="Help" style="rounded=1;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;align=left;spacingLeft=12;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="12" y="394" width="216" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-user-divider" value="" style="line;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="844" width="240" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="858" width="32" height="32" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-sidebar-username" value="Dr. Maria Santos" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="858" width="160" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- Header 64px -->
+        <mxCell id="shell-header" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="0" width="1200" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-title" value="Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;" vertex="1" parent="1">
+          <mxGeometry x="272" y="10" width="400" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-breadcrumb" value="Admin / Settings" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;" vertex="1" parent="1">
+          <mxGeometry x="272" y="36" width="400" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-header-export" value="Export All Data" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="14" width="140" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="shell-header-avatar" value="MS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=11;fontColor=#4A6B7A;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1392" y="16" width="32" height="32" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE -->
+        <mxCell id="set-sf-content-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FAFAF8;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="64" width="1200" height="836" as="geometry"/>
+        </mxCell>
+
+        <!-- Tab bar (Backup active) -->
+        <mxCell id="set-sf-tabs-bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="64" width="1200" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-tabs-tab1" value="Clinic" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="260" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-tabs-tab2" value="Profile" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="380" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-tabs-tab3" value="Fees" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="500" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <!-- Active: Backup tab -->
+        <mxCell id="set-sf-tabs-tab4" value="Backup" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="620" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-tabs-tab4-accent" value="" style="line;strokeColor=#1E3A5F;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="102" width="120" height="2" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-tabs-tab5" value="Notifications" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="740" y="64" width="120" height="38" as="geometry"/>
+        </mxCell>
+
+        <!-- Backup Content -->
+        <mxCell id="set-sf-backup-heading" value="Cloud Backup" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=18;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="120" width="300" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Last backup + Offline badge (badge stamp h=22) -->
+        <mxCell id="set-sf-last-backup" value="Last backup: 2026-03-22 14:30" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=13;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="156" width="280" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-badge-offline" value="Offline" style="rounded=1;arcSize=50;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=#F5F5F5;strokeColor=#E5E5E5;fontFamily=Inter;fontSize=10;fontStyle=1;fontColor=#4A6B7A;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="730" y="155" width="72" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- Storage Usage -->
+        <mxCell id="set-sf-storage-label" value="Storage Usage" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Progress bar at 98% (destructive red - stays red per shell override rules) -->
+        <mxCell id="set-sf-progress-track" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="228" width="600" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-progress-fill" value="" style="rounded=1;arcSize=50;whiteSpace=wrap;html=1;fillColor=#EF4444;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="228" width="588" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-progress-pct" value="98%" style="text;html=1;align=right;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#EF4444;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="600" height="16" as="geometry"/>
+        </mxCell>
+
+        <!-- Alert: Storage Full (alert-destructive stamp, w=600 h=64) -->
+        <mxCell id="set-sf-alert" style="group;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="276" width="600" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-alert-bg" value="" style="rounded=1;arcSize=4;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E5E5;strokeWidth=1;" vertex="1" parent="set-sf-alert">
+          <mxGeometry x="0" y="0" width="600" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-alert-accent" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EF4444;strokeColor=none;" vertex="1" parent="set-sf-alert">
+          <mxGeometry x="0" y="0" width="4" height="64" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-alert-icon" value="✕" style="text;html=1;align=center;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontColor=#EF4444;" vertex="1" parent="set-sf-alert">
+          <mxGeometry x="16" y="12" width="24" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-alert-title" value="Storage full" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=14;fontStyle=1;fontColor=#1E3A5F;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="set-sf-alert">
+          <mxGeometry x="48" y="12" width="540" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="set-sf-alert-desc" value="Backup will fail until storage is expanded." style="text;html=1;align=left;verticalAlign=middle;fontFamily=Inter;fontSize=12;fontColor=#4A6B7A;whiteSpace=nowrap;overflow=hidden;" vertex="1" parent="set-sf-alert">
+          <mxGeometry x="48" y="34" width="540" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- Buy More Storage (ghost variant per CTA table, h=36) -->
+        <mxCell id="set-sf-btn-buy" value="Buy More Storage" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=none;fontFamily=Inter;fontSize=14;fontColor=#1E3A5F;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="440" y="364" width="180" height="36" as="geometry"/>
+        </mxCell>
+        <!-- Back Up Now (outline, disabled, h=36) -->
+        <mxCell id="set-sf-btn-backup" value="Back Up Now" style="rounded=1;arcSize=6;whiteSpace=nowrap;overflow=hidden;html=1;fillColor=none;strokeColor=#E5E5E5;strokeWidth=1;fontFamily=Inter;fontSize=14;fontColor=#4A6B7A;align=center;verticalAlign=middle;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="636" y="364" width="140" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- CONTENT ZONE END -->
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
