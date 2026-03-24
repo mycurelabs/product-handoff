@@ -62,6 +62,8 @@ wireframe_pages: [Default, Empty, Solo Tier]
 | Bar | `TreatmentRecord` aggregated by treatment type | Top treatments by frequency and revenue | Stacked or grouped: frequency (count) + revenue (₱). Sorted by revenue descending. Top 10 treatments. Horizontal orientation for readability on tablet. |
 | Pie | `Payment` records grouped by method | Revenue breakdown by payment method | Segments: Cash, Credit Card, Bank Transfer, GCash/Maya (placeholder), Manual. Labels: method + percentage + ₱ amount. |
 
+> See [`addendum-design-specs.md`](../../addendum-design-specs.md) §6.1–6.2 for exact ChartConfig objects (color keys, axis formatters, tooltip format) and the bar chart grouped layout decision.
+
 ### Layout
 
 1. **Header** — `px-6 py-4 flex justify-between items-center`. Left: "Dashboard" heading. Right: "View Detailed Report" ghost link → `/reports`.

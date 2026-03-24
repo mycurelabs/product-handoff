@@ -58,7 +58,7 @@ wireframe_pages: [Default]
 1. **Header** — `px-6 py-4 flex justify-between`. "Consent Form" title + ✕ close.
 2. **Form Type** — `px-6 py-3`. Select dropdown ("Treatment Consent ▾").
 3. **Consent Text** — `px-6 py-4`. Gray placeholder area (`h-[120px] bg-neutral-50 rounded-lg`): "Consent form content loads here."
-4. **Patient Signature** — `px-6 py-3`. Label "Patient Signature" + bordered touch-to-sign area (`h-[100px] border-dashed border-2 rounded-lg`).
+4. **Patient Signature** — `px-6 py-3`. Label "Patient Signature" + bordered touch-to-sign area (`h-[100px] border-dashed border-2 rounded-lg`). See [`addendum-design-specs.md`](../addendum-design-specs.md) §7.1 for canvas resolution, stroke style, and output format.
 5. **Doctor Signature** — `px-6 py-3`. Label "Doctor Signature" + bordered area. May show "Auto-filled from profile" in muted text.
 6. **Footer** — `px-6 py-4 border-t flex justify-end gap-3`. "Cancel" ghost + "Clear" outline + "Save" amber primary.
 

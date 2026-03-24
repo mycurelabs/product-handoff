@@ -247,3 +247,5 @@ The following UX gaps were identified and resolved during the SMELT handoff sess
 |----------|----------|
 | Original PRD | [`docs/PRD.md`](../docs/PRD.md) |
 | Brand Tokens | [`brand/brand-tokens.md`](../brand/brand-tokens.md) |
+| Design Spec Addendum | [`addendum-design-specs.md`](addendum-design-specs.md) |
+| Dental Chart Reference | [`dentalchart/DENTAL_CHART_REFERENCE.md`](../dentalchart/DENTAL_CHART_REFERENCE.md) |

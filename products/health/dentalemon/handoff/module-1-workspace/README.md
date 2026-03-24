@@ -99,7 +99,7 @@ The dental workspace is the single screen where the dentist spends their entire 
 
 ## Tech Notes
 
-- **Timeline Carousel:** Built with Framer Motion. Use `useMotionValue` + `useTransform` for proximity-based scaling. 3D perspective via CSS `transform: perspective() rotateY()`. Spring physics for deceleration (`type: "spring", stiffness: 300, damping: 30`). Each card is a React component wrapping the SVG dental chart.
+- **Timeline Carousel:** Built with Framer Motion. Use `useMotionValue` + `useTransform` for proximity-based scaling. 3D perspective via CSS `transform: perspective() rotateY()`. Spring physics for deceleration (`type: "spring", stiffness: 300, damping: 30`). Each card is a React component wrapping the SVG dental chart. **Full animation spec:** See [`addendum-design-specs.md`](../addendum-design-specs.md) §1.1–1.8 for spring mass, Dock magnification curve, 3D transform values, card dimensions, snap behavior, and drag thresholds.
 - **Dental Chart SVG:** Each tooth is an independent SVG group with click handler. Surface state is driven by per-tooth data (condition/treatment status → fill color). View mode toggle (full/quadrant/full-view) re-renders the SVG layout, not the individual teeth.
 - **Slideout resize behavior:** The slideout is NOT a shadcn Sheet overlay. It resizes the workspace from ~100% to ~70% width. Implement as a flex layout with animated width transition, not a modal/overlay.
 - **Treatment fee schedule:** Prices auto-populate from a configurable fee schedule (Settings module). Editable inline via overflow menu on each breakdown row.

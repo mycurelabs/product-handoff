@@ -78,7 +78,7 @@ wireframe_pages: [Default, Empty, Error]
 1. **Header** — `px-6 py-4 flex justify-between items-center`. Left: "Calendar" heading + date range label (e.g., "March 24, 2026" for day, "Mar 24-30" for week). Right: "Walk-In" outline + "+ New Appointment" primary.
 2. **View Controls** — `px-6 py-2 flex justify-between items-center`. Left: ← Today → navigation. Right: Day / Week / Month segmented control (Tabs).
 3. **Calendar Body** — varies by view:
-   - **Day View** — `px-6`. Vertical time grid (7:00 AM → 7:00 PM, configurable). Each slot = 30 min (configurable). Appointment Cards positioned in their time slots (height proportional to duration). Tapping empty slot → New Appointment modal pre-filled with that time.
+   - **Day View** — `px-6`. Vertical time grid (7:00 AM → 7:00 PM, configurable). Each slot = 30 min (configurable), `60px` height per slot. See [`addendum-design-specs.md`](../../addendum-design-specs.md) §7.2 for slot dimensions, scroll behavior, and appointment block height formula. Appointment Cards positioned in their time slots (height proportional to duration). Tapping empty slot → New Appointment modal pre-filled with that time.
    - **Week View** — `px-6`. 7-column grid (Mon-Sun). Each column = day view compressed. Appointment Cards as colored blocks. Tapping a block → detail popover.
    - **Month View** — `px-6`. Standard month grid. Each day cell shows appointment count badge + first 2 patient names. Tapping a day → switches to Day View for that date.
 4. **No appointments indicator** — slots without appointments show as empty time blocks. No visual clutter.

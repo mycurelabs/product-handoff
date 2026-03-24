@@ -146,6 +146,8 @@ wireframe_pages: [Default, Empty (New Patient), Past Baseline (Read-Only), Post-
 
 ### Carousel Card Render Strategy
 
+> See [`addendum-design-specs.md`](../addendum-design-specs.md) §1.1–1.8 for carousel spring physics, Dock magnification curve, 3D transforms, card dimensions, snap behavior, and drag thresholds.
+
 Each carousel card renders a **simplified per-quadrant dental chart** — not the full interactive 32-tooth SVG.
 
 | Aspect | Spec |
