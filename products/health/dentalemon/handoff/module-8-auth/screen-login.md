@@ -37,7 +37,7 @@ wireframe: inline-ascii
 | `Card` | User account cards (avatar + name + role badge) | `className='cursor-pointer'` |
 | `Avatar` | User photo or initials | `size='lg'` |
 | `Badge` | Role badge: Dentist-Owner / Staff | `variant='secondary'` |
-| `InputOTP` | PIN entry field (4-6 digits) | `maxLength={6}` |
+| `InputOTP` | PIN entry field (exactly 6 digits) | `maxLength={6}`, `minLength={6}` |
 | `Button` | "Login" submit | `variant='default'` |
 | `Alert` | Lockout warning after failed attempts | `variant='destructive'` |
 
@@ -46,20 +46,20 @@ wireframe: inline-ascii
 | Field | Type | Required | Validation | Default | Entity.Field |
 |-------|------|----------|------------|---------|-------------|
 | User Selection | card select | Yes | Must tap a user card | Last-active user (on re-auth) | — |
-| PIN | OTP input (4-6 digits) | Yes | Numeric only, 4-6 digits. 5 failures → 30s lock. 10 failures → 5 min lock. | Empty | — |
+| PIN | OTP input (6 digits) | Yes | Exactly 6 digits, numeric only. 5 failures → 30s lock. 10 failures → 5 min lock. | Empty | — |
 
 ### Layout
 
 1. **App Logo** — centered at top. Dentalemon logo + tagline.
 2. **User Cards** — `flex gap-4 justify-center`. One Card per user account (dentist-owner + active staff). Each card: Avatar (large) + Name + Role badge. Tap to select (selected card has amber border).
-3. **PIN Entry** — `mt-6 flex justify-center`. InputOTP (4-6 digit circles). Appears after user card is selected.
+3. **PIN Entry** — `mt-6 flex justify-center`. InputOTP (6 digit circles). Appears after user card is selected.
 4. **Login Button** — `mt-4 flex justify-center`. "Login" primary button (full-width, max-w-[300px]).
 5. **Lockout Alert** — `mt-4`. Appears after 5 failed attempts: "Too many attempts. Try again in [N] seconds."
 
 ### Key Interactions
 
 - **Tap user card** → card highlights with amber border. PIN entry field appears below. If re-auth after iPad sleep: last-active user pre-selected, PIN entry immediate.
-- **Enter PIN** → each digit fills a circle. On complete (4-6 digits entered): auto-submit or tap "Login."
+- **Enter PIN** → each digit fills a circle. On complete (6 digits entered): auto-submit or tap "Login."
 - **Successful login** → redirects to Patient List (`/patients`). If re-auth after iPad sleep: resumes exact previous screen with all state preserved (including open workspace, wizard state, etc.).
 - **Failed PIN** → shake animation on PIN circles + "Incorrect PIN" text. Circles clear. Focus returns to first digit.
 - **Lockout** → after 5 failures: Alert "Too many attempts. Try again in 30 seconds." PIN entry disabled. Countdown visible. After 10 total: 5 minute lockout.

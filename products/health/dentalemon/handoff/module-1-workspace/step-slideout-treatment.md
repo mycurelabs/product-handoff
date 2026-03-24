@@ -31,7 +31,7 @@ wireframe_pages: [Default]
 | Component | Usage | Props/Variant |
 |-----------|-------|---------------|
 | **Custom Stepper** | Progress indicator. Treatment step active (amber). | `activeStep={currentStep}` |
-| **5-Surface Selector** | Read-only diagram showing current state. Surfaces change from amber (diagnosed) to blue (treatment assigned) as treatments are selected. | `readOnly={true}` |
+| **5-Surface Selector** | Read-only diagram showing current state. Surfaces change from RED (#DC2626) (diagnosed) to BLUE (#2563EB) (treatment assigned) as treatments are selected. | `readOnly={true}` |
 | `Select` | Treatment dropdown per condition card. Grouped by dental specialty. | — |
 | `SelectGroup` | Specialty group headers: ORTHO, ENDO, PERIO, PROSTHO, ORAL, PEDIA, COSMETIC | `label='[SPECIALTY]'` |
 | `SelectItem` | Individual treatment options with dental icons | — |
@@ -48,7 +48,7 @@ wireframe_pages: [Default]
 
 1. **Header** — `px-4 py-3 flex justify-between`. "Tooth #[N]" + ✕.
 2. **Stepper** — Treatment step active (amber).
-3. **Surface Diagram** — Read-only. Surfaces update color as treatments are assigned: amber → blue.
+3. **Surface Diagram** — Read-only. Surfaces update color as treatments are assigned: RED (#DC2626) → BLUE (#2563EB).
 4. **Treatment Plans Section** — `px-4 py-2 space-y-4`. Header: "Treatment Plans". For each condition card from the Condition step:
    - Context row: surface labels (left, e.g., "M, D") + condition badge (right, e.g., "Caries")
    - Treatment Select dropdown below: "Select a treatment" placeholder. Grouped options by specialty.
@@ -58,7 +58,7 @@ wireframe_pages: [Default]
 ### Key Interactions
 
 - **Each condition card from the Condition step** gets its own treatment dropdown. The condition context (surfaces + condition name) is shown as a label above each dropdown.
-- **Select treatment** → dropdown updates to show selected treatment. Surface diagram updates: affected surfaces change from amber to blue/purple.
+- **Select treatment** → dropdown updates to show selected treatment. Surface diagram updates: affected surfaces change from RED (#DC2626) to BLUE (#2563EB).
 - **All treatments must be assigned** before "Save & Continue" is enabled. Button is disabled if any condition card has no treatment selected.
 - **Treatment dropdown grouped by specialty** — ORTHO (Filling, Cleaning), ENDO (Root Canal, Pulpectomy), PERIO (Scaling, Debridement), PROSTHO (Crown, Bridge, Denture), ORAL (Extraction), PEDIA (Sealant, Fluoride), COSMETIC (Bleaching, Veneer). List is configurable by the dentist in Settings.
 - **"Back"** → returns to Condition step. Treatment selections are preserved if returning forward.
@@ -78,14 +78,14 @@ wireframe_pages: [Default]
 - **Trigger:** Select a treatment from the specialty-grouped dropdown for each condition card
 - **Opens:** Inline — dropdown updates to show selected treatment (no separate modal)
 - **Validation:** All condition cards must have a treatment selected before "Save & Continue" is enabled.
-- **On success:** Treatment shown in dropdown. Surface diagram updates (amber → blue). "Save & Continue" becomes enabled when all conditions have treatments.
+- **On success:** Treatment shown in dropdown. Surface diagram updates (RED #DC2626 → BLUE #2563EB). "Save & Continue" becomes enabled when all conditions have treatments.
 - **On cancel:** N/A — selecting a different treatment replaces the previous selection inline.
 
 ### What This Panel Does
 
 - Presents each diagnosed condition with a treatment selection dropdown
 - Groups treatments by dental specialty for guided selection
-- Updates the surface diagram in real-time (amber → blue as treatments are assigned)
+- Updates the surface diagram in real-time (RED #DC2626 → BLUE #2563EB as treatments are assigned)
 - Validates all conditions have treatments before advancing
 
 ### What This Panel Does NOT Do

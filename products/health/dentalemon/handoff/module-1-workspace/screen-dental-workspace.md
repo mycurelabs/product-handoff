@@ -120,7 +120,7 @@ wireframe_pages: [Default, Empty (New Patient), Past Baseline (Read-Only), Post-
 - **Pediatric patient** → carousel chart switches to deciduous dentition (20 teeth, FDI 51-85).
 - **PWD/Senior patient** → discount auto-applied in Payment Modal.
 - **Proposed treatments not marked Done** → carry forward to next baseline (persistent until acted on or removed).
-- **Surface state colors on chart:** amber = condition diagnosed, blue/purple = treatment assigned. Colors update in real-time as wizard progresses.
+- **Surface state colors on chart:** RED (#DC2626) = condition diagnosed, BLUE (#2563EB) = treatment assigned. Colors update in real-time as wizard progresses.
 - **Missing/extracted teeth** → teeth marked as missing, extracted, or congenitally absent render as a distinct visual state on the chart (grayed out, "X" overlay). Tapping a missing tooth shows a lightweight status card ("Tooth 16 — Extracted, 2024-01-15") instead of opening the full wizard. Status can be set via the tooth's Overview step or a quick-action on the chart.
 - **Re-entering a charted tooth** → if a tooth already has treatments in the current breakdown table, tapping it opens the Slideout at Overview (4-step flow) showing existing records. The dentist can add MORE conditions via "Create Record" or edit existing ones. The wizard does NOT open fresh — it always shows existing context first.
 - **Work Done undo** → checking "Work Done" triggers a 5-second undo toast: "Marked as done. [Undo]". Tapping "Undo" restores the row to Proposed state. After 5 seconds, the toast dismisses and the action is committed. The undo toast uses a large tap target (≥44px) for gloves-on use. **If the dentist takes any other action while the toast is active** (opens slideout, taps another row, changes carousel date), the pending action commits immediately and the toast dismisses — navigation is never blocked by an undo window.
@@ -129,6 +129,8 @@ wireframe_pages: [Default, Empty (New Patient), Past Baseline (Read-Only), Post-
 - **Date picker behavior** → changing the date navigates the carousel to that date's baseline card. The breakdown table follows the active carousel card, showing treatments for the focused baseline. Existing session data is never destroyed — it remains on its baseline card and can be reached by swiping back. If no baseline exists for the selected date, a new empty baseline card is created. **Date picker is subject to the same discard guard as close/patient-switch** — if the slideout wizard has unsaved data, an AlertDialog fires before the carousel navigates.
 - **Carousel arrow buttons** → visible prev/next arrow buttons (≥44px each) flank the carousel for non-gesture navigation. Required for WCAG 2.5.7 (drag alternative) and gloves-on reliability. Additionally, a tooth-number quick-jump (row of numbered indicators or dropdown) allows jumping directly to a specific tooth.
 - **Finalize → auto-scroll + highlight** → after "Finalize Plans" closes the slideout, the breakdown table auto-scrolls to reveal the newly added rows. New rows have a brief highlight animation (amber flash, fades after 3 seconds). Focus returns to the carousel chart so the dentist can immediately tap the next tooth.
+
+> **Clinical Color Standard:** RED (#DC2626) = conditions/problems, BLUE (#2563EB) = treatments/completed work. This follows the universal dental charting convention (see `dentalchart/DENTAL_CHART_REFERENCE.md`). Brand amber (#FFCC5E) is used for UI elements only, never for clinical surface state.
 - **Breakdown row ordering** → rows are ordered by tooth number (FDI ascending: 11, 12, ... 48), then by creation time within the same tooth. This ensures a predictable reading order for billing review.
 - **iPad sleep / session persistence** → wizard state (current step, selected surfaces, assigned conditions, treatments, notes) is persisted to local storage on every step advancement. If the iPad auto-locks and the dentist returns, the wizard resumes at the exact step with all selections preserved.
 - **Touch targets** → all interactive elements meet ≥44x44px minimum: Work Done checkbox (padded hit area), overflow ⋯ icon (padded hit area), carousel arrow buttons, surface selector regions, wizard step indicators. This is a hard requirement for iPad conversion and gloves-on clinical use.
@@ -141,6 +143,39 @@ wireframe_pages: [Default, Empty (New Patient), Past Baseline (Read-Only), Post-
   - **Post-payment continuation** — after payment, the dentist can still add new treatments in the same session (wizard still works). New rows appear as Proposed. Paid rows remain visible in the breakdown table for the current session as a billing receipt. On next session/baseline, Paid rows from previous sessions are only visible in the Treatment History Modal.
   - **Partial payment** — if the dentist pays for some Done rows but not all (via Payment Modal partial payment), only the covered rows transition to Paid. Remaining Done rows stay as Done with Grand Total reflecting the unpaid balance.
 - **FR1.7 intentional deviation** → the PRD specifies dual footer totals (Estimated left + Checkout right). The hi-fi mockup simplifies this to a single "Continue to Payment" CTA. **Mockup is authoritative.** The Grand Total row in the breakdown table serves the "estimated" purpose. The CTA serves the "checkout" purpose. Dual-footer is not implemented.
+
+### Carousel Card Render Strategy
+
+Each carousel card renders a **simplified per-quadrant dental chart** — not the full interactive 32-tooth SVG.
+
+| Aspect | Spec |
+|--------|------|
+| Render mode | Pre-rendered simplified diagram per card (not live interactive SVG) |
+| Chart view | Per-quadrant view within each card — upper-left, upper-right, lower-left, lower-right |
+| Interaction | Tap on a tooth area opens the slideout wizard with that tooth pre-selected |
+| Full interactive chart | Only rendered when the slideout opens or in full-view mode — not inside carousel cards |
+| Performance rationale | Full live SVG across 3-5 visible carousel cards would require 480-800+ SVG elements in view simultaneously, causing scroll jank on iPad |
+| Re-render trigger | Card snapshot re-generates when treatment data changes (condition added, treatment assigned, work done) |
+
+> **Why not full live SVG in cards?** The carousel has 3-5 cards visible at once with Cover Flow perspective transforms. Each full chart has 32 teeth × 5 surfaces = 160 SVG interaction zones. Multiplied across visible cards, this exceeds iPad GPU budgets for smooth 60fps gesture animation. The simplified per-quadrant render preserves the visual signature while keeping the carousel buttery smooth.
+
+### Dental Chart Layout
+
+The interactive dental chart is a **16×2 grid** (16 columns, 2 rows — upper arch and lower arch).
+
+| Aspect | Spec |
+|--------|------|
+| Grid | 16 columns × 2 rows |
+| Upper row | Teeth 1-16 (right to left: 3rd molar → central incisor, then central incisor → 3rd molar) |
+| Lower row | Teeth 32-17 (right to left: mirroring upper arch) |
+| Per-tooth SVG | Individual SVG file per tooth, each with pre-defined surface zones (Buccal, Mesial, Distal, Incisal/Occlusal, Palatal/Lingual + Cervical) |
+| Tooth cell size | Fixed frame per tooth in the grid — teeth are not variable-width |
+| Numbering | Universal Numbering System (1-32) for adult, with FDI (11-48) as alternate display option |
+| Pediatric | 20 teeth (FDI 51-85) — same grid structure with 12 positions empty/hidden |
+| Color standard | RED (#DC2626) = conditions, BLUE (#2563EB) = treatments (see Clinical Color Standard note) |
+| Surface zones | Each tooth SVG has colorable surface regions ready for per-surface state fill |
+
+> The dev team already has individual tooth SVGs with surface zones pre-built. The grid arranges them in the standard dental chart layout (upper arch top, lower arch bottom, patient's right on viewer's left).
 
 ### Navigation
 

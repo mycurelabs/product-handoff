@@ -45,7 +45,7 @@ wireframe_pages: [Default, Empty, Search No Results]
 |-----------|-------|---------------|
 | `Input` | Search field (top of page) | `type='search'`, `placeholder='Search patients...'` |
 | `Button` | "+ New Patient" CTA | `variant='default'` |
-| **Patient Folder Card** | Custom SVG folder cards in responsive grid — CUSTOM COMPONENT, see epic | `patient={Patient}`, `onTap={() => void}`, `onOverflow={(action: 'profile' \| 'edit' \| 'archive') => void}`, `showInSession={boolean}`, `showDebtBadge={boolean}` |
+| **Patient Folder Card** | Custom SVG folder cards in responsive grid — CUSTOM COMPONENT, see epic | `patient={Patient}`, `onTap={() => void}`, `onOverflow={(action: 'profile' \| 'edit' \| 'archive') => void}`, `showInSession={boolean}`, `showDebtBadge={boolean}`, `width={130}`, `height={96}` |
 | `Avatar` | Patient photo inside folder card tab | `size='md'` |
 | `Badge` | Patient status (Active, Pending, Inactive) | `variant='outline'` |
 | `DropdownMenu` | Overflow menu per card (⋮): View Profile, Edit, Archive | — |
@@ -54,6 +54,8 @@ wireframe_pages: [Default, Empty, Search No Results]
 | `DropdownMenuItem` | Archive | `className='text-destructive'` |
 | `Dialog` | New Patient Registration modal container | — |
 | `Select` | Sort/filter controls (e.g., sort by name, status, last visit) | — |
+
+> **Patient Folder Card SVG:** 130×96px base dimensions. The folder shape SVG assets are provided separately. Card scales responsively within the grid while maintaining aspect ratio (130:96 ≈ 1.35:1).
 
 ### Field Specs
 

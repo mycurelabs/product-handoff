@@ -50,7 +50,7 @@ wireframe: inline-ascii
 | `Button` | Reactivate (per row, visible only on deactivated accounts) | `variant='ghost'` |
 | `Input` | Staff name field (inline form) | `type='text'` |
 | `Select` | Role selector (Staff — scheduling only / Staff — full operational) | — |
-| `Input` | PIN field (4-6 digits) | `type='password'`, `maxLength={6}` |
+| `Input` | PIN field (exactly 6 digits) | `type='password'`, `maxLength={6}`, `minLength={6}` |
 | `Alert` | Tier limit warning (Solo: 1 slot, Practice: 3 slots) | `variant='warning'` |
 | `AlertDialog` | Deactivate confirmation | — |
 
@@ -60,7 +60,7 @@ wireframe: inline-ascii
 |-------|------|----------|------------|---------|-------------|
 | Staff Name | text | Yes | Non-empty, max 100 chars | Empty | `Staff.name` |
 | Role | select | Yes | Solo tier: "Staff — scheduling only" (only option). Practice tier: "Staff — scheduling only" or "Staff — full operational" | Staff — scheduling only | `Staff.role` |
-| PIN | password | Yes | 4-6 digits, numeric only | Empty | `Staff.pin` |
+| PIN | password | Yes | Exactly 6 digits, numeric only | Empty | `Staff.pin` |
 
 ### Layout
 
@@ -98,7 +98,7 @@ wireframe: inline-ascii
 - **Trigger:** "+ Add Staff" button
 - **Opens:** Inline form below table
 - **Form fields:** Staff Name, Role, PIN (see Field Specs)
-- **Validation:** Name required. Role required. PIN must be 4-6 digits.
+- **Validation:** Name required. Role required. PIN must be exactly 6 digits.
 - **On success:** Toast "Staff account created." New row appears in table. Form collapses.
 - **On cancel:** Form collapses. No account created.
 - **Blocked when:** All tier slots filled.

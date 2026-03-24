@@ -32,7 +32,7 @@ wireframe_pages: [Default, Empty]
 | Component | Usage | Props/Variant |
 |-----------|-------|---------------|
 | **Custom Stepper** | Progress indicator. If 3-step flow: Step 1 active (Condition). If 4-step: Step 2 active. | `activeStep={currentStep}` |
-| **5-Surface Selector** | Interactive BMDIP diagram with cervical mode toggle. Multi-select surfaces (amber highlight). Label updates: "Surface M selected" / "Surfaces M, D selected" (CUSTOM COMPONENT) | `readOnly={false}`, `multiSelect={true}` |
+| **5-Surface Selector** | Interactive BMDIP diagram with cervical mode toggle. Multi-select surfaces (RED #DC2626 highlight). Label updates: "Surface M selected" / "Surfaces M, D selected" (CUSTOM COMPONENT) | `readOnly={false}`, `multiSelect={true}` |
 | `Switch` | Cervical mode toggle — enables cervical zone selection on the tooth diagram alongside standard surfaces | `label='Cervical'` |
 | `Select` | Conditions dropdown with grouped options | — |
 | `SelectGroup` | "WHOLE TOOTH" group header (Impacted, Supernumerary, Missing, Malpositioned) | `label='WHOLE TOOTH'` |
@@ -56,14 +56,14 @@ wireframe_pages: [Default, Empty]
 
 1. **Header** — `px-4 py-3 flex justify-between`. "Tooth #[N]" (bold) + ✕ close.
 2. **Stepper** — `px-4 py-2`. Numbered circles. Active step highlighted amber.
-3. **Surface Diagram** — `px-4 py-4 flex justify-center`. Interactive 5-surface selector with cervical toggle (Switch) positioned above or beside the diagram. When cervical mode is ON, cervical zones appear on the tooth neck area as additional tappable regions. Selected surfaces fill amber. Label below: "Surface [X] selected" or "Surfaces M, D, Cervical selected".
+3. **Surface Diagram** — `px-4 py-4 flex justify-center`. Interactive 5-surface selector with cervical toggle (Switch) positioned above or beside the diagram. When cervical mode is ON, cervical zones appear on the tooth neck area as additional tappable regions. Selected surfaces fill RED (#DC2626). Label below: "Surface [X] selected" or "Surfaces M, D, Cervical selected".
 4. **Conditions Section** — `px-4 py-2`. Header: "Conditions ([N])" with count. Select dropdown: "Select condition" placeholder. Grouped options (WHOLE TOOTH / SURFACE). Below dropdown: stacked condition cards showing assigned pairs (e.g., "M, D · Caries" + trash icon).
 5. **Empty State** — When no conditions assigned: tooth icon + "No conditions added" + "You have not added any conditions yet." centered below dropdown.
 6. **Footer** — `sticky bottom-0 px-4 py-3 border-t flex justify-between gap-3`. "Back" ghost button (left). "Save & Continue" primary button (right).
 
 ### Key Interactions
 
-- **Tap surface on diagram** → surface highlights amber. Label updates. Multiple surfaces can be selected simultaneously.
+- **Tap surface on diagram** → surface highlights RED (#DC2626). Label updates. Multiple surfaces can be selected simultaneously.
 - **Tap selected surface again** → deselects it.
 - **Select condition from dropdown** → condition card appears below showing the surface-condition pair (e.g., "M, D · Caries"). Dropdown resets to placeholder for next assignment.
 - **Condition count "([N])"** → tracks total number of surfaces affected across all cards (not number of cards).
