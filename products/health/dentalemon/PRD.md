@@ -2,7 +2,7 @@
 title: "Product Requirements Document — Dentalemon"
 product: dentalemon
 category: prd
-tags: [prd, dental, clinic-management, ipad, tablet, philippines, local-first, solo-practice]
+tags: [prd, dental, clinic-management, ipad, tablet, philippines, solo-practice]
 ---
 
 # Product Requirements Document: Dentalemon
@@ -196,7 +196,7 @@ Dentrix — the most feature-complete dental software globally — is effectivel
 | **Stand-alone license** | No | No | No | No | Yes |
 | **Known pricing** | Unknown ("absurd") | Unknown | ~₱1,500/mo (stale) | ₱1,499/mo | ₱25-35K one-time |
 | **PH compliance** | Yes | Yes | Yes | Yes | Yes |
-| **Data ownership** | Vendor-held | Vendor-held | Vendor-held | Cloud-only | Local-first, user-owned |
+| **Data ownership** | Vendor-held | Vendor-held | Vendor-held | Cloud-only | User-owned (cloud + offline) |
 
 ### 5.2 Competitive Moat (3 Layers)
 
@@ -248,22 +248,22 @@ The data model must support Phase 2+ from day one. The following must be present
 
 ## 7. User Privacy Layer
 
-> **Principle:** Patient data lives on the dentist's device. The dentist owns their data. Cloud is a backup, not the source. If the vendor shuts down, the data persists on the device.
+> **Principle:** The dentist owns their data. The app works offline and syncs to cloud when connected. If the vendor shuts down, the data persists.
 
 ### 7.1 What the Product Protects
 
 | Data | Protection | Why |
 |---|---|---|
-| Patient clinical records | Local-first storage on device; cloud is a backup copy, not the primary store | Data survives vendor shutdown; no internet required for access |
+| Patient clinical records | Cloud + offline capability; works without internet | Data survives connectivity issues and vendor shutdown |
 | Patient personal information | Encrypted at rest and in transit; DPA 2012 compliant | Regulatory requirement; clinical data is sensitive |
 | PRC license credentials | Validated format; stored per-dentist | Professional regulatory data |
 | Payment information | Never stored in the app; hosted checkout handles all card processing | PCI compliance; reduces risk surface |
 
 ### 7.2 Privacy Defaults
 
-- Patient records are stored locally on the iPad first, synced to cloud backup automatically
+- App works offline; syncs to cloud automatically when connected
 - Full CSV/JSON data export always available — no vendor lock-in at any tier
-- Cloud backup is optional for operation — the app works completely offline
+- Cloud backup included — works without it for core workflows
 - Staff access is role-scoped: secretary/receptionist cannot access clinical notes or financial analytics (Phase 1: 1 staff login scoped to scheduling + patient lookup for Solo tier; up to 3 full-access staff for Practice tier)
 
 ---
@@ -415,7 +415,7 @@ Every Philippine dental practice has at least 1 staff member (confirmed across a
 
 #### FR12: Offline-First Operation & Cloud Backup | P0 | Must
 
-The app must work completely offline — internet connectivity is not required for any core clinical workflow. The #1 barrier to digital adoption in Philippine healthcare is internet reliability. Local-first architecture sidesteps this. Cloud backup is a safety net, not a dependency. "Cloud Backup" framing — never "Cloud Storage." Data lives on the iPad; cloud is an automatic copy for disaster recovery.
+The app must work offline — internet connectivity is not required for any core clinical workflow. The #1 barrier to digital adoption in Philippine healthcare is internet reliability. Cloud and offline capability sidesteps this. Cloud backup is a safety net, not a dependency.
 
 | Req | Description | Acceptance Criteria |
 |---|---|---|
@@ -665,7 +665,7 @@ Optional: export daily report as CSV/PDF
 
 ### Pricing Model: Stand-Alone License (One-Time Payment)
 
-Every Philippine dental software competitor uses subscription. Dentalemon's stand-alone license is the primary commercial differentiator — aligned with local-first principles (user ownership, data durability, no vendor dependency).
+Every Philippine dental software competitor uses subscription. Dentalemon's stand-alone license is the primary commercial differentiator — aligned with user ownership principles (data durability, no vendor dependency).
 
 | Component | Model | Rationale |
 |---|---|---|
