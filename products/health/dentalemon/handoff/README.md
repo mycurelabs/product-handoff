@@ -16,11 +16,11 @@ Each module has its own directory with per-screen Markdown files containing wire
 | UI Library | shadcn/ui |
 | Styling | Tailwind CSS v4 |
 | Icons | lucide-react + custom dental icon set |
-| Charts | recharts (via shadcn Chart) |
+| Charts | shadcn Charts |
 | Fonts | Plus Jakarta Sans (headings), Inter (body), JetBrains Mono (clinical data) |
 | Animation | Framer Motion |
 | Min Viewport | 1024 × 768 (iPad landscape) |
-| Data | Local-first (IndexedDB/SQLite via WASM), cloud backup sync |
+| Data | Cloud + offline capability |
 
 ### Custom Components (not in shadcn/ui)
 
